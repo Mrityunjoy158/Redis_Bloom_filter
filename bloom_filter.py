@@ -115,3 +115,4 @@ if bloom_filter.check(email):
 else:
     bloom_filter.add(email)  # Add the email to the filter
     bloom_filter.save_filter()  # Save the updated filter state to the file
+    
